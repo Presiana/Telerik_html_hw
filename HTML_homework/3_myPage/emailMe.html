@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Email Me</title>
+	</head>
+	<body background = "images/background.png">
+		<form action="" method = "get">
+			<fieldset>
+				<legend> Изпрати ми имейл </legend>
+				
+					<div><label for="name">Име: </label>
+					<input type="text" id="name" placeholder = "Въведете Вашето име"/>
+					</div>
+					
+					<div><label for="email"> Имейл: </label>
+					<input type="text" id = "email" placeholder = "Въведете Вашия имейл"/>
+					</div>
+					
+					<div>
+					<label for="opinion">Вашето мнение за страницата: </label>
+					<select name="client's_opinion" id="opinion">
+						<option value="харесва ми" selected = "selected">Харесва ми</option>
+						<option value="не ми харева">Не ми харесва</option>
+						<option value="нямам мнение">Нямам мнение</option>
+					</select>
+					</div>
+					
+					<div>
+					<label for="message">Съобщение: </label>
+					<textarea name="message" id="message" cols="30" rows="8">
+					</textarea>
+					</div>
+					
+					<div>
+					<button type = "submit" value = "send">Изпрати</button>
+					</div>
+			
+			</fieldset>
+		</form> 
+		
+		<div>
+		<a href="index.html">
+		<img src="images/back.ico" alt="back" width = "40" height = "40"/>
+		<b>Върни се в началната страница</b></a>
+		</div>
+	</body>
+</html>
